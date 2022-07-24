@@ -7,6 +7,7 @@ body {
   background-color: #212121;
   color: #fff;
   overflow-x: hidden;
+  padding: 0px 20px 20px 80px;
 }
 #root {
   min-height: 100vh;
@@ -14,7 +15,8 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
+  margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
   h1 {
@@ -107,10 +109,10 @@ h1 {
 }
 
 .card {
-  background-color: #fff;
+  background-color: #000;
   padding: 1rem;
   border-radius: 1rem;
-  color: #000;
+  color: #f4f4f4;
   box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.4);
 }
 
